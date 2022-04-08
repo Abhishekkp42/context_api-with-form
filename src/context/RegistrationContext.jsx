@@ -1,6 +1,8 @@
 import {createContext,useReducer} from "react"
 import axios from "axios"
 
+export const RegistrationContext = createContext();
+
 const initState = { 
   name:"",
   age:"",
@@ -29,7 +31,6 @@ const reducer = (state, action) => {
   }
 };
 
-export const RegistrationContext = createContext();
 
 export const RegistrationContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initState);
@@ -39,9 +40,7 @@ export const RegistrationContextProvider = ({ children }) => {
 
   //post data
   const handleSubmit = ()=>{
-	  axios.post("http://localhost:5000/users")
-        .then(data => dispatch({data}));
-    
+	  axios.post("http://localhost:5000/users",state)
 }
    
 

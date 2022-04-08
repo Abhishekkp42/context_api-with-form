@@ -33,7 +33,7 @@ export const Form1 = () => {
           dispatch({ type: 'CHANGE_DATEOFBIRTH', payload: e.target.value })
         }
       />
-      <button disabled={!name && !age && !dateofbirth} onClick={() => navigate('/registration/two')}>next</button>
+      <button disabled={!name && !age && !dateofbirth} onClick={() => navigate(`/registration/two`)}>next</button>
     </div>
   );
 };

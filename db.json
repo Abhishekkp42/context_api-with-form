@@ -1,4 +1,31 @@
 {
   "users": [
+    {
+      "name": "ewcwcw",
+      "age": "12",
+      "dateofbirth": "0112-12-12",
+      "stateofresidence": "213",
+      "address": "213",
+      "pincode": "232233",
+      "id": 1
+    },
+    {
+      "name": "ecwec",
+      "age": "",
+      "dateofbirth": "",
+      "stateofresidence": "cqwdqd",
+      "address": "dwqd",
+      "pincode": "2222",
+      "id": 2
+    },
+    {
+      "name": "aaaa",
+      "age": "11",
+      "dateofbirth": "1111-02-11",
+      "stateofresidence": "wwwwww",
+      "address": "s2ssqwqs`1",
+      "pincode": "1111111",
+      "id": 3
+    }
   ]
 }

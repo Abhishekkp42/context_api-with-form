@@ -10,10 +10,10 @@ export const Form2 = () => {
         address,
         pincode,handleSubmit, dispatch } = useContext(RegistrationContext);
 
-  const navigate = useNavigate();
-  if (!name || !age || dateofbirth) {
-    navigate('/registration/one');
-  }
+//   const navigate = useNavigate();
+//   if (!name || !age || dateofbirth) {
+//     navigate('/registration/one');
+//   }
 
   return (
     <div>
