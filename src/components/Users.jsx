@@ -21,16 +21,13 @@ const getData = () => {
 
 useEffect(() => {
   getData();
-});
+},[]);
 
   return (
     <>
       <h1 id='h1'> All Users</h1>
       {data.map((e) => {
         return (
-          <div>
-            {' '}
-            <div className="data">
               <div key={e.id}>
                 <h4>Name:{e.name}</h4>
                 <p>Age:{e.age}</p>
@@ -39,8 +36,6 @@ useEffect(() => {
                 <p>Address:{e.address}</p>
                 <p>Pincode:{e.pincode}</p>
               </div>
-            </div>
-          </div>
         );
       })}
 

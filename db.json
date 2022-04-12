@@ -26,6 +26,24 @@
       "address": "s2ssqwqs`1",
       "pincode": "1111111",
       "id": 3
+    },
+    {
+      "name": "axax",
+      "age": "22",
+      "dateofbirth": "2022-04-11",
+      "stateofresidence": "Jharkhand",
+      "address": "qqqq",
+      "pincode": "828111",
+      "id": 4
+    },
+    {
+      "name": "qq",
+      "age": "1111",
+      "dateofbirth": "2022-04-15",
+      "stateofresidence": "qwee",
+      "address": "vrsca",
+      "pincode": "1111111",
+      "id": 5
     }
   ]
 }
